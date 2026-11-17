@@ -1,0 +1,19 @@
+[project]
+name = "dsc190-assignment-7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shant Guedekelian", email = "sguedekelian@ucsd.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dvc>=3.67.1",
+]
+
+[project.scripts]
+dsc190-assignment-7 = "dsc190_assignment_7:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
